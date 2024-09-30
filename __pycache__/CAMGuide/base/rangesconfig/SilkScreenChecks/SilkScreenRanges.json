@@ -1,0 +1,166 @@
+{
+    "rangesList":[
+        {
+            "name": "SM Clearance",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "SMD Clearance",
+            "RedLv": "177800",
+            "YellowLv": "254000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "PTH pads Clearance",
+            "RedLv": "203200",
+            "YellowLv": "254000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "Via pads Clearance",
+            "RedLv": "127000",
+            "YellowLv": "254000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "NPTH pads Clearance",
+            "RedLv": "0",
+            "YellowLv": "127000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "Undrilled pads Clearance",
+            "RedLv": "203200",
+            "YellowLv": "254000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "NPTH clearance",
+            "RedLv": "0",
+            "YellowLv": "127000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "PTH clearance",
+            "RedLv": "254000",
+            "YellowLv": "304800",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "Via clearance",
+            "RedLv": "203200",
+            "YellowLv": "254000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "Rout clearance",
+            "RedLv": "0",
+            "YellowLv": "254000",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "Line width",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+        {
+            "name": "Arc width",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+		{
+            "name": "Pad width",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+		{
+            "name": "Surface width",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+        {
+            "name": "Zero Line width",
+            "RedLv": "25400",
+            "YellowLv": "50800",
+            "GreenLv": "76200"
+        },
+		{
+            "name": "Shaved Line",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+		{
+            "name": "Shaved Arc",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+		{
+            "name": "Shaved Pad",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+		{
+            "name": "Shaved Surface",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+        {
+            "name": "Inconsistent Line Width",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+		{
+            "name": "Inconsistent Arc Width",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+		{
+            "name": "Inconsistent Surface Width",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "Text width",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+        {
+            "name": "Text height",
+            "RedLv": "406400",
+            "YellowLv": "711200",
+            "GreenLv": "25400000"
+        },
+        {
+            "name": "SS to SS spacing",
+            "RedLv": "152400",
+            "YellowLv": "203200",
+            "GreenLv": "2540000"
+        },
+        {
+            "name": "SS Over Text",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+		{
+            "name": "SS Over Channel",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        }
+    ]
+}

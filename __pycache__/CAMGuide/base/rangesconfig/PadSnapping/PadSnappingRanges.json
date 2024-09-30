@@ -1,0 +1,38 @@
+{
+"rangesList":[
+{
+	"name": "Snapped pads",
+	"RedLv": "50800",
+	"YellowLv": "25400",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Un Snapped pads",
+	"RedLv": "76200",
+	"YellowLv": "25400",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Spacing problems",
+	"RedLv": "76200",
+	"YellowLv": "25400",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Snapped Grid pads",
+	"RedLv": "50800",
+	"YellowLv": "25400",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Spacing problems to Grid",
+	"RedLv": "76200",
+	"YellowLv": "25400",
+	"GreenLv": "0"
+}
+]
+}

@@ -1,0 +1,206 @@
+{
+"rangesList":[
+{
+	"name": "Org step check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org solder paste top layer check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org silk screen top layer check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org solder mask top layer check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org signal layers check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org solder mask bottom layer check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org silk screen bottom layer check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org solder paste bottom layer check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org drill layers check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org rout layer check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Org zero point check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Net step check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Net outerline layer check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Net profile check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Net clip outerline check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Net clip outside check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare smd pad sold check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare step check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare line2surface check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare signal layer negative check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare signal layer attribute check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare drill layer negative check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare drill layer attribute check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare solder mask layer negative check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare solder mask feature check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare solder mask sold check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare outer layer drillpad check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare board layer symbol size check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Prepare step drill pad poisition check",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+}
+]
+}

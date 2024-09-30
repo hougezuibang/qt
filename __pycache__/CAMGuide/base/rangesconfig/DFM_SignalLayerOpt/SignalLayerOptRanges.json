@@ -1,0 +1,136 @@
+{
+"rangesList":[
+{
+	"name": "ARG repaired",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "ARG violation(min)",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "ARG violation(opt)",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Pad enlarge > limit",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "annular_ring",
+	"RedLv": "254000000.00",
+	"YellowLv": "254025400.00",
+	"GreenLv": "254025400.00"
+}
+,
+{
+	"name": "Spacing",
+	"RedLv": "254000000.00",
+	"YellowLv": "254025400.00",
+	"GreenLv": "254050800.00"
+}
+,
+{
+	"name": "Pth2c",
+	"RedLv": "254000000.00",
+	"YellowLv": "254025400.00",
+	"GreenLv": "254050800.00"
+}
+,
+{
+	"name": "NPth2c",
+	"RedLv": "254000000.00",
+	"YellowLv": "254025400.00",
+	"GreenLv": "254050800.00"
+}
+,
+{
+	"name": "Spacing repaired",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "H2Cu repaired",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Spacing violation(min)",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Spacing violation(opt)",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "H2Cu violation",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Same net space",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Same Net Spacing Violation",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Same Net Spacing Violation repaired",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Polygon shave",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Filled polygon shave",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Unfillable polygon shave",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+]
+}

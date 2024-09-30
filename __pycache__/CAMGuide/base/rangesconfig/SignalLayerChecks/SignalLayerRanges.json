@@ -1,0 +1,496 @@
+{
+    "rangesList":[
+        {
+            "name": "Pad to pad",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Pad to circuit",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "SMD to circuit",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Circuit to circuit",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Line to Line",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Circuit to Line",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Text to text",
+            "RedLv": "101600",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Spacing length",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Same Net Spacing",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "CAD Self Spacing",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "CAD Short",
+            "RedLv": "25400000",
+            "YellowLv": "25425400",
+            "GreenLv": "25450800"
+        },
+        {
+            "name": "ToePrint to ToePrint",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "SMD to SMD",
+            "RedLv": "203200",
+            "YellowLv": "355600",
+            "GreenLv": "406400"
+        },
+        {
+            "name": "SMD to Pad",
+            "RedLv": "203200",
+            "YellowLv": "355600",
+            "GreenLv": "406400"
+        },
+        {
+            "name": "Via to Via",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "PTH to PTH",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Exposed to Exposed",
+            "RedLv": "254000",
+            "YellowLv": "304800",
+            "GreenLv": "381000"
+        },
+        {
+            "name": "Covered to Covered",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Exposed to Covered",
+            "RedLv": "177800",
+            "YellowLv": "228600",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "Exposed to Exposed(Same net)",
+            "RedLv": "177800",
+            "YellowLv": "228600",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "Covered to Covered(Same net)",
+            "RedLv": "177800",
+            "YellowLv": "228600",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "Exposed to Covered(Same net)",
+            "RedLv": "177800",
+            "YellowLv": "228600",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "Exposed to Fully Covered",
+            "RedLv": "177800",
+            "YellowLv": "228600",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "NPTH to pad",
+            "RedLv": "203200",
+            "YellowLv": "254000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "NPTH to circuit",
+            "RedLv": "203200",
+            "YellowLv": "254000",
+            "GreenLv": "304800"
+        },
+        {
+            "name": "PTH to Copper",
+            "RedLv": "254000",
+            "YellowLv": "304800",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "PTH to Line",
+            "RedLv": "254000",
+            "YellowLv": "304800",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "PTH to Pad",
+            "RedLv": "254000",
+            "YellowLv": "304800",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "VIA to Copper",
+            "RedLv": "228600",
+            "YellowLv": "279400",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "VIA to Line",
+            "RedLv": "228600",
+            "YellowLv": "279400",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "VIA to Pad",
+            "RedLv": "228600",
+            "YellowLv": "279400",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "PTH Annular ring",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "228600"
+        },
+        {
+            "name": "PTH (Comp) Annular ring",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "228600"
+        },
+        {
+            "name": "VIA Annular ring",
+            "RedLv": "101600",
+            "YellowLv": "177800",
+            "GreenLv": "228600"
+        },
+        {
+            "name": "Laser Via Annular ring",
+            "RedLv": "101600",
+            "YellowLv": "177800",
+            "GreenLv": "228600"
+        },
+        {
+            "name": "Photo Via Annular ring",
+            "RedLv": "101600",
+            "YellowLv": "177800",
+            "GreenLv": "228600"
+        },
+        {
+            "name": "NPTH Annular ring",
+            "RedLv": "228600",
+            "YellowLv": "279400",
+            "GreenLv": "355600"
+        },
+        {
+            "name": "PTH Registration",
+            "RedLv": "76200",
+            "YellowLv": "50800",
+            "GreenLv": "0"
+        },
+        {
+            "name": "NPTH Registration",
+            "RedLv": "76200",
+            "YellowLv": "50800",
+            "GreenLv": "0"
+        },
+        {
+            "name": "Missing Pad for VIA",
+            "RedLv": "25400000",
+            "YellowLv": "25425400",
+            "GreenLv": "25450800"
+        },
+        {
+            "name": "Missing Pad for PTH",
+            "RedLv": "25400000",
+            "YellowLv": "25425400",
+            "GreenLv": "25450800"
+        },
+        {
+            "name": "Missing Cu for VIA",
+            "RedLv": "25400000",
+            "YellowLv": "25425400",
+            "GreenLv": "25450800"
+        },
+        {
+            "name": "NPTH touches Copper",
+            "RedLv": "25400000",
+            "YellowLv": "25425400",
+            "GreenLv": "25450800"
+        },
+        {
+            "name": "Rout to Copper",
+            "RedLv": "381000",
+            "YellowLv": "508000",
+            "GreenLv": "635000"
+        },
+        {
+            "name": "Missing Cu for Plated Rout",
+            "RedLv": "25400000",
+            "YellowLv": "25425400",
+            "GreenLv": "25450800"
+        },
+        {
+            "name": "Pads",
+            "RedLv": "127000",
+            "YellowLv": "254000",
+            "GreenLv": "12700000"
+        },
+        {
+            "name": "Lines",
+            "RedLv": "127000",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Non standard rotated lines",
+            "RedLv": "2540000000",
+            "YellowLv": "2540025400",
+            "GreenLv": "2540050800"
+        },
+        {
+            "name": "Shaved Lines",
+            "RedLv": "2540000000",
+            "YellowLv": "2540025400",
+            "GreenLv": "2540050800"
+        },
+        {
+            "name": "Inconsistent Line Width",
+            "RedLv": "2540000000",
+            "YellowLv": "2540025400",
+            "GreenLv": "2540050800"
+        },
+        {
+            "name": "Arcs",
+            "RedLv": "127000",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Shaved Arcs",
+            "RedLv": "127000",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Inconsistent Arc Width",
+            "RedLv": "2540000000",
+            "YellowLv": "2540025400",
+            "GreenLv": "2540050800"
+        },
+        {
+            "name": "Line Neckdown",
+            "RedLv": "127000",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Text",
+            "RedLv": "101600",
+            "YellowLv": "177800",
+            "GreenLv": "228600"
+        },
+        {
+            "name": "Text Fields",
+            "RedLv": "508000",
+            "YellowLv": "762000",
+            "GreenLv": "10160000"
+        },
+        {
+            "name": "Slivers",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Local Spacing",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Stubs",
+            "RedLv": "25400000",
+            "YellowLv": "25425400",
+            "GreenLv": "25450800"
+        },
+        {
+            "name": "SMD Pitch",
+            "RedLv": "381000",
+            "YellowLv": "508000",
+            "GreenLv": "635000"
+        },
+        {
+            "name": "BGA Pitch",
+            "RedLv": "381000",
+            "YellowLv": "508000",
+            "GreenLv": "635000"
+        },
+        {
+            "name": "Zero Width Or Too Thin Features",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "SMD Pads",
+            "RedLv": "203200",
+            "YellowLv": "381000",
+            "GreenLv": "635000"
+        },
+        {
+            "name": "Shaved SMD",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+		{
+            "name": "Shaved BGA",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "SMD Packages",
+            "RedLv": "2540000",
+            "YellowLv": "5080000",
+            "GreenLv": "25400000"
+        },
+        {
+            "name": "Conductor width",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "203200"
+        },
+        {
+            "name": "Plated Rout Annular Ring",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Incoming Trace to Hole",
+            "RedLv": "127000",
+            "YellowLv": "177800",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Net Too Large",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "Ignored Net",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "Pad to Pad Connection",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "Pad to Cu Connection",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "Pad to Line Connection",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "Feature too small to check",
+            "RedLv": "254000000",
+            "YellowLv": "254025400",
+            "GreenLv": "254050800"
+        },
+        {
+            "name": "BGA to circuit(spacing)",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Feature to feature(spacing)",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "BGA to BGA(spacing)",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "BGA to Pad(spacing)",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Pad to line(spacing)",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "Pad to surface(spacing)",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        },
+        {
+            "name": "VIA to Copper(Same net)",
+            "RedLv": "101600",
+            "YellowLv": "203200",
+            "GreenLv": "254000"
+        }
+    ]
+}

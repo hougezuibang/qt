@@ -1,0 +1,73 @@
+{
+"rangesList":[
+{
+	"name": "Full Teardrops",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "One Sided Teardrops",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Shortened Teardrops",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Missing Teardrops",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Problematic Teardrops",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Suspected Thermal",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Spacing Violations",
+	"RedLv": "25400.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Line Too Narrow",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Updated Teardrops Size",
+	"RedLv": "0.00",
+	"YellowLv": "0.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Suspected Teardrop",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+]
+}

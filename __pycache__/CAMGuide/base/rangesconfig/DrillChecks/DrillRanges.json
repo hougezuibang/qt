@@ -1,0 +1,268 @@
+{
+"rangesList":[
+{
+	"name": "PTH Summary",
+	"RedLv": "711200.00",
+	"YellowLv": "889000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "NPTH Summary",
+	"RedLv": "1016000.00",
+	"YellowLv": "1018540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Via Summary",
+	"RedLv": "304800.00",
+	"YellowLv": "711200.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Plated Slot Summary",
+	"RedLv": "711200.00",
+	"YellowLv": "889000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Non Plated Slot Summary",
+	"RedLv": "1016000.00",
+	"YellowLv": "1018540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "2nd Drilled Holes",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "2nd Drilled PTH Holes",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Tooling Holes",
+	"RedLv": "762000.00",
+	"YellowLv": "1270000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Mounting Holes",
+	"RedLv": "711200.00",
+	"YellowLv": "889000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Duplicate Holes",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Touching Holes",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Close Holes",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "Missing Holes",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Extra Holes",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Short_3",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Short_4",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Short_5",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Short_6",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Short_7",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Short_8",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Short_9",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Short_10_up",
+	"RedLv": "5334000.00",
+	"YellowLv": "6350000.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "NPTH to Rout",
+	"RedLv": "406400.00",
+	"YellowLv": "609600.00",
+	"GreenLv": "812800.00"
+},
+{
+	"name": "Non Standard Symbol",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Non Standard Feature",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Canned Text",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "254000000.00"
+}
+,
+{
+	"name": "PTH slot to Rout",
+	"RedLv": "406400.00",
+	"YellowLv": "609600.00",
+	"GreenLv": "819800.00"
+}
+,
+{
+	"name": "NPTH slot to Rout",
+	"RedLv": "406400.00",
+	"YellowLv": "609600.00",
+	"GreenLv": "819800.00"
+}
+,
+{
+	"name": "Same Net Close PTHs",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "Different Net Close PTHs",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Close NPTHs",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Close PTH2NPTH (isolate)",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Close PTH2NPTH (conn)",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Close PTH2NPTH",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "Same Net Close VIAs",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "Different Net Close VIAs",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "Same Net Close VIA2PTH",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "Different Net Close VIA2PTH",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+]
+}

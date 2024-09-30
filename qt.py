@@ -7,7 +7,6 @@ app = QApplication(sys.argv)            # Qt实例化一个app 必须有且只�
 w = QWidget()							# 创建窗口
 w.setWindowTitle("薪资统计")              # 设置窗口标题名称
 w.resize(500, 400)                      # 设置窗口大小
-
 # qDrawPlainRect(w)
 w.show()                                # 展示窗口
 app.exec()                              # 程序进入循环等待状态

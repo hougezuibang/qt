@@ -1,0 +1,108 @@
+{
+"rangesList":[
+{
+	"name": "Laser to Laser",
+	"RedLv": "254000.00",
+	"YellowLv": "330200.00",
+	"GreenLv": "457200.00"
+}
+,
+{
+	"name": "Laser to Via",
+	"RedLv": "254000.00",
+	"YellowLv": "330200.00",
+	"GreenLv": "457200.00"
+}
+,
+{
+	"name": "Laser to PTH",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "Laser to NPTH",
+	"RedLv": "254000.00",
+	"YellowLv": "330200.00",
+	"GreenLv": "457200.00"
+}
+,
+{
+	"name": "Laser to Rout",
+	"RedLv": "508000.00",
+	"YellowLv": "548200.00",
+	"GreenLv": "711200.00"
+}
+,
+{
+	"name": "Via to Via",
+	"RedLv": "254000.00",
+	"YellowLv": "330200.00",
+	"GreenLv": "457200.00"
+}
+,
+{
+	"name": "Via to PTH",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "Via to NPTH",
+	"RedLv": "254000.00",
+	"YellowLv": "330200.00",
+	"GreenLv": "457200.00"
+}
+,
+{
+	"name": "Via to Rout",
+	"RedLv": "508000.00",
+	"YellowLv": "548200.00",
+	"GreenLv": "711200.00"
+}
+,
+{
+	"name": "PTH to PTH",
+	"RedLv": "304800.00",
+	"YellowLv": "381000.00",
+	"GreenLv": "508000.00"
+}
+,
+{
+	"name": "PTH to NPTH",
+	"RedLv": "254000.00",
+	"YellowLv": "330200.00",
+	"GreenLv": "457200.00"
+}
+,
+{
+	"name": "PTH to Rout",
+	"RedLv": "508000.00",
+	"YellowLv": "548200.00",
+	"GreenLv": "711200.00"
+}
+,
+{
+	"name": "NPTH to NPTH",
+	"RedLv": "254000.00",
+	"YellowLv": "304800.00",
+	"GreenLv": "355600.00"
+}
+,
+{
+	"name": "NPTH to Rout",
+	"RedLv": "406400.00",
+	"YellowLv": "609600.00",
+	"GreenLv": "812800.00"
+}
+,
+{
+	"name": "NPTH to Rout_%",
+	"RedLv": "508000.00",
+	"YellowLv": "762000.00",
+	"GreenLv": "1016000.00"
+}
+]
+}

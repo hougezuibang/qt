@@ -1,0 +1,593 @@
+{
+"rangesList":[
+{
+	"name": "PTH annular Ring",
+	"RedLv": "177800",
+	"YellowLv": "228600",
+	"GreenLv": "254000"
+}
+,
+{
+	"name": "NPTH annular Ring",
+	"RedLv": "76200",
+	"YellowLv": "127000",
+	"GreenLv": "177800"
+}
+,
+{
+	"name": "Via annular Ring",
+	"RedLv": "152400",
+	"YellowLv": "228600",
+	"GreenLv": "254000"
+}
+,
+{
+	"name": "SMD annular Ring",
+	"RedLv": "63500",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Fiducial To SM",
+	"RedLv": "177800",
+	"YellowLv": "228600",
+	"GreenLv": "254000"
+}
+,
+{
+	"name": "Pad annular Ring",
+	"RedLv": "76200",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "VIA Pad annular Ring",
+	"RedLv": "50800",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "PTH Pad annular Ring",
+	"RedLv": "76200",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "NPTH Pad annular Ring",
+	"RedLv": "76200",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Undrilled Pad annular Ring",
+	"RedLv": "76200",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Fully Exposed Line annular Ring",
+	"RedLv": "76200",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Partial Exposed Line annular Ring",
+	"RedLv": "76200",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "SMD Pad Gasket",
+	"RedLv": "76200",
+	"YellowLv": "50800",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Undrilled Pad Gasket",
+	"RedLv": "76200",
+	"YellowLv": "50800",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "PTH Pad Gasket",
+	"RedLv": "76200",
+	"YellowLv": "50800",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "NPTH Pad Gasket",
+	"RedLv": "76200",
+	"YellowLv": "50800",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "NPTH Hole Gasket",
+	"RedLv": "76200",
+	"YellowLv": "50800",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "VIA Pad Gasket",
+	"RedLv": "76200",
+	"YellowLv": "50800",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "Undrilled Pad and Clearance Same Size",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "SMD Pad and Clearance Same Size",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "PTH Pad and Clearance Same Size",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "NPTH Pad and Clearance Same Size",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "NPTH Hole and Clearance Same Size",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "VIA Pad and Clearance Same Size",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "NPTH touches mask",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Coverage",
+	"RedLv": "76200",
+	"YellowLv": "152400",
+	"GreenLv": "203200"
+}
+,
+{
+	"name": "Same Net Coverage",
+	"RedLv": "76200",
+	"YellowLv": "152400",
+	"GreenLv": "203200"
+}
+,
+{
+	"name": "Clearance Cover Several Nets",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "AR Larger than Coverage",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Rout spacing",
+	"RedLv": "254000",
+	"YellowLv": "330200",
+	"GreenLv": "406400"
+}
+,
+{
+	"name": "Missing Rout Clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "No bridge",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "No bridge (Same Net)",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "No Bridge (SMD Pads)",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "SMDs Clearance Bridge",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "SMD to Pad Clearance Bridge",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "Pad to Pad Clearance Bridge",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "Pad to Pad Clearance Bridge (Same Net)",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+},
+{
+	"name": "SM slivers",
+	"RedLv": "101600",
+	"YellowLv": "152400",
+	"GreenLv": "203200"
+}
+,
+{
+	"name": "SM local spacing",
+	"RedLv": "101600",
+	"YellowLv": "152400",
+	"GreenLv": "203200"
+}
+,
+{
+	"name": "Pad to Pad Spacing",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "Pad to Pad Spacing(Same Net)",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "Pad to Non-Pad Spacing",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "Non-Pad to Non-Pad Spacing",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "Fully Exposed Tear Drop Pad",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Missing SMD clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Missing Undrilled Pad clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Missing PTH clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Missing VIA clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Covered VIA to SM",
+	"RedLv": "76200",
+	"YellowLv": "152400",
+	"GreenLv": "203200"
+}
+,
+{
+	"name": "Missing NPTH clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "SMD Partial Clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Undrilled Pad Partial Clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Net Too Large",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Fully Exposed Line",
+	"RedLv": "0",
+	"YellowLv": "25400000",
+	"GreenLv": "25425400"
+}
+,
+{
+	"name": "Partial Clearance on VIA drilled pad",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Partial Clearance on NPTH drilled pad",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Partial Clearance on PTH drilled pad",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Partial SMD Clearance annular Ring",
+	"RedLv": "63500",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Partial SMD Clearance gasket",
+	"RedLv": "63500",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Partial Undrilled Pad Clearance annular Ring",
+	"RedLv": "63500",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Partial Undrilled Pad Clearance gasket",
+	"RedLv": "63500",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Via to SMD Clearance",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "PTH to SMD Clearance",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "NPTH to SMD Clearance",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "Ignored Net",
+	"RedLv": "254000000",
+	"YellowLv": "254025400",
+	"GreenLv": "254050800"
+}
+,
+{
+	"name": "Clearance to Clearance Connection",
+	"RedLv": "254000000",
+	"YellowLv": "254025400",
+	"GreenLv": "254050800"
+}
+,
+{
+	"name": "Feature too small to check",
+	"RedLv": "254000000",
+	"YellowLv": "254025400",
+	"GreenLv": "254050800"
+}
+,
+{
+	"name": "** Not in Use **",
+	"RedLv": "0",
+	"YellowLv": "0",
+	"GreenLv": "0"
+},
+{
+	"name": "BGA Annular Ring",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+},
+{
+	"name": "Coverage to line",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+},
+{
+	"name": "Coverage to Pad",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+},
+{
+	"name": "Coverage to Surface",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "BGA Pad Gasket",
+	"RedLv": "76200",
+	"YellowLv": "50800",
+	"GreenLv": "0"
+}
+,
+{
+	"name": "BGA Pad and Clearance Same Size",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "BGAs Clearance Bridge",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "BGA to Pad Clearance Bridge",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+,
+{
+	"name": "BGA Partial Clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Missing BGA clearance",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Partial BGA Clearance annular Ring",
+	"RedLv": "63500",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Partial BGA Clearance gasket",
+	"RedLv": "63500",
+	"YellowLv": "127000",
+	"GreenLv": "152400"
+}
+,
+{
+	"name": "Via to BGA Clearance",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "PTH to BGA Clearance",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "NPTH to BGA Clearance",
+	"RedLv": "127000",
+	"YellowLv": "177800",
+	"GreenLv": "228600"
+}
+,
+{
+	"name": "No Bridge (BGA Pads)",
+	"RedLv": "228600",
+	"YellowLv": "304800",
+	"GreenLv": "355600"
+}
+]
+}

@@ -1,0 +1,7 @@
+{
+"pcb":"RobotCam.json",
+"fpc":"XH_FPC4.json",
+"precheck":"PreGuide.json",
+"pcb_execute":"Robot.json",
+"part_precheck":"PreGuideForQuote.json"
+}

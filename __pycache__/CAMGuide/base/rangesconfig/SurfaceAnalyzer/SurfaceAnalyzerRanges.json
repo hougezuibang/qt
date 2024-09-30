@@ -1,0 +1,80 @@
+{
+"rangesList":[
+{
+	"name": "Self-intersection in surface",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Self-intersection in symbol",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Problematic surface",
+	"RedLv": "0.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Wrong nesting for island",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Wrong nesting for hole",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Small Polygon",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Small Polygon in symbol",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Fold",
+	"RedLv": "0.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Fold in symbol",
+	"RedLv": "0.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Small edge in surface",
+	"RedLv": "0.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Small edge in symbol",
+	"RedLv": "0.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+]
+}

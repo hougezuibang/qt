@@ -1,0 +1,136 @@
+{
+"rangesList":[
+{
+	"name": "No Violations",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Violations (Optimal)",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Opt.Cover Only",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Opt.Clear Only",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Violations (Minimal)",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Gasket Removed",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Bridges (All)",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Bridges (Violations)",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Bridges (Positive)",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Bridges (Net Intersected)",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Cannot Bridge",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Too dense",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Problems",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Resize Problem",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+,
+{
+	"name": "Oversized Clearances",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Partial   Clearances",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Small     Clearances",
+	"RedLv": "0.00",
+	"YellowLv": "25400000.00",
+	"GreenLv": "25425400.00"
+}
+,
+{
+	"name": "Shave Avoided",
+	"RedLv": "0.00",
+	"YellowLv": "2540.00",
+	"GreenLv": "25400000.00"
+}
+,
+{
+	"name": "Shaves",
+	"RedLv": "25400000.00",
+	"YellowLv": "25425400.00",
+	"GreenLv": "25450800.00"
+}
+]
+}

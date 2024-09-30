@@ -1,0 +1,31 @@
+{
+"rangesList":[
+{
+	"name": "Isolated",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Duplicate",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Drilled Over",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+,
+{
+	"name": "Covered",
+	"RedLv": "25400000",
+	"YellowLv": "25425400",
+	"GreenLv": "25450800"
+}
+]
+}
