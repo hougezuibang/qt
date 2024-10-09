@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'd:\PythonProject\UI\counter.ui'
+# Form implementation generated from reading ui file 'd:\PythonProject\UI\计算器.ui'
 #
 # Created by: PyQt5 UI code generator 5.9
 #
