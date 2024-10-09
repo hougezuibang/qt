@@ -8,7 +8,7 @@ class Ui_MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setObjectName("XXXX")  # 设置窗口名称
+        self.setObjectName("布局")  # 设置窗口名称
         self.resize(800, 800)       # 设置窗口大小
 
         # 创建一个中心小部件
