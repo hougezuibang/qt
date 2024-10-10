@@ -12,15 +12,8 @@ class Ui_MainWindow(QtWidgets.QWidget):
     def setupUi(self):
         self.resize(800, 800)       # 设置窗口大小
         cout = QVBoxLayout(self)
-        
-        
-        
-        groupBox = QGroupBox("GroupBox")
-        cout_1 = QVBoxLayout()
-    
-        groupBox2 = QGroupBox("GroupBox2")
-        cout_2 = QHBoxLayout() 
-
+        cout_1 = QHBoxLayout()
+        cout_2 = QVBoxLayout()
         # cout_2.addWidget(cout_1)
         # cout.setLayout(cout_1)
         
@@ -49,10 +42,8 @@ class Ui_MainWindow(QtWidgets.QWidget):
         # cout.addStretch()
         cout_1.addWidget(radioButton8)
         cout_2.addWidget(radioButton9)
-        groupBox.setLayout(cout_1)
-        groupBox2.setLayout(cout_2)
-        cout.addWidget(groupBox)
-        cout.addWidget(groupBox2)
+        cout.addLayout(cout_1)
+        cout.addLayout(cout_2)
         self.setLayout(cout)
 if __name__ == '__main__':
     app =QtWidgets.QApplication(sys.argv)
