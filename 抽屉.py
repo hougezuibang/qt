@@ -23,9 +23,10 @@ class Ui_MainWindow(QtWidgets.QWidget):
         self.but_2.clicked.connect(self.win2show)
         self.cout.addWidget(self.window_1)
         self.cout.addWidget(self.window_2)
-        self.cout.addWidget(self.but_1)
-        self.cout.addWidget(self.but_2)
+        cout1.addWidget(self.but_1)
+        cout1.addWidget(self.but_2)
         cout1.addLayout(self.cout)
+        self.setLayout(cout1)
     def win1show(self):
         self.cout.setCurrentIndex(0)
     def win2show(self):
