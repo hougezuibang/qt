@@ -124,6 +124,7 @@ class Ui_Form(QtWidgets.QWidget):
     def yinkong(self):
         print("yinkong")
         print(self.spinBox.value())
+        print(self.spinBox_3.value())
 
         caokong(JobName, step, self.spinBox.value(), self.spinBox_3.value())
         # GUI.show_layer(JobName, 'orig', 'drill.out')
@@ -259,7 +260,7 @@ def caokong(jobname, step,kongjianju, bianjianju):
         # GUI.show_layer(jobname, step[0], 'drill.out')
         selectFeatureInfo = Information.get_selected_features_infos(jobname, step[0], 'drill.out')
         liangkongjianju = kongjianju/1000
-        liangbianjianju = bianjianju/1000
+        liangbianjianju = bianjianju/1000*2
         if not selectFeatureInfo:
             print("没有找到选中的物件信息")
             return
