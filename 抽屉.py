@@ -9,14 +9,16 @@ from PyQt5.QtWidgets import QGroupBox, QVBoxLayout, QHBoxLayout, QStackedLayout
 class Ui_MainWindow(QtWidgets.QWidget):
 
     def setupUi(self):
-        self.resize(800, 800)       # 设置窗口大小
+        self.resize(400, 400)       # 设置窗口大小
         cout1 = QVBoxLayout(self)
         self.cout = QStackedLayout()
 
         cout1.addLayout(self.cout)
-
+        
         self.window_1 = win1()
         self.window_2 = win2()
+        self.window_1.setStyleSheet("background-color:red")
+        self.window_2.setStyleSheet("background-color:blue")
         self.but_1 = QtWidgets.QPushButton("抽屉1")
         self.but_2 = QtWidgets.QPushButton("抽屉2")
         self.but_1.clicked.connect(self.win1show)
@@ -44,10 +46,10 @@ class win2(QtWidgets.QWidget):
         super().__init__()
         self.setWindowTitle("抽屉2")
         label = QtWidgets.QLabel("这是抽屉2", self)
+        
         layout = QVBoxLayout(self)
         layout.addWidget(label)
         self.setLayout(layout)
-
 if __name__ == '__main__':
     app =QtWidgets.QApplication(sys.argv)
     mainWindow = Ui_MainWindow()
