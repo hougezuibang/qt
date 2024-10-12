@@ -35,7 +35,7 @@ class Ui_MainWindow(QtWidgets.QWidget):
         self.text_con.textCursor().insertText("收到信号"+str(self.i)+"\n")
         # print(mas)
     def set_mas(self,mas):
-        print("收到信号"+mas)
+        print("输出数值"+mas)
 
         print(mas)
 if __name__ == '__main__':
