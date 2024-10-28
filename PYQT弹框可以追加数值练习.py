@@ -19,7 +19,9 @@ textEdit.setPlaceholderText("欢迎使用薪资统计软件！")  # 设置文本
 textEdit.move(10, 10)  # 设置文本编辑器位置
 textEdit.resize(480, 380)  # 设置文本编辑器大小
 button = QPushButton(w)  # 创建一个按钮
-button.setText("统计")  # 设置按钮文字
+button.setText("统计")  # 设置按钮文字 
+
+
 button.move(500, 200)  # 设置按钮位置
 button.clicked.connect(onclick)  # 按钮点击事件绑定onclick函数
 w.show()  # 展示窗口
