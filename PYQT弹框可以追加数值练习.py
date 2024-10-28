@@ -9,7 +9,7 @@ def onclick():
   textEdit.appendPlainText("num---"+str(num))  # 在文本编辑器末尾添加文字
   num += 1  # num+=1
 # qDrawPlainRect = drawRect  # 重写qDrawPlainRect函数
-app = QApplication(sys.argv)  # Qt实例化一个app 必须有且只有一个 sys.argv一个列表是当前文件的名称元素
+app = QApplication(sys.argv)  # Qt实例化一个app 必须有且只有一个 sys.argv·一个列表是当前文件的名称元素
 w = QWidget()  # 创建窗口
 w.setWindowTitle("薪资统计")  # 设置窗口标题名称
 w.resize(1000, 800)  # 设置窗口大小
