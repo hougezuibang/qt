@@ -39,7 +39,6 @@ class Ui_MainWindow(object):
     def login(self):
         print(self.lineEdit_2.text())
         print(self.lineEdit.text())
-
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
