@@ -65,6 +65,9 @@ class Ui_home(object):
         self.tengxun_btn = QtWidgets.QPushButton(self.frame)
         self.tengxun_btn.setGeometry(QtCore.QRect(390, 270, 93, 28))
         self.tengxun_btn.setObjectName("tengxun_btn")
+        self.mybtn = QtWidgets.QPushButton(self.frame)
+        self.mybtn.setGeometry(QtCore.QRect(580, 40, 93, 28))
+        self.mybtn.setObjectName("mybtn")
         home.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(home)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
@@ -90,4 +93,5 @@ class Ui_home(object):
         self.baidu_btn.setText(_translate("home", "百度"))
         self.douyin_btn.setText(_translate("home", "抖音"))
         self.tengxun_btn.setText(_translate("home", "腾讯"))
+        self.mybtn.setText(_translate("home", "my"))
 

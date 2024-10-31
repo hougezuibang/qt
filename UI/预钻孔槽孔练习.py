@@ -191,6 +191,7 @@ def MergingHole():
     # 设置自定义特征
     Information.get_origin_point(JobName, step[0])
     # 复制图层到另一层
+    # Layers.copy2other_layer(JobName, step[0], 'drill.pin', 'drill.out', False, 0, 0, 0, 0, 0, 0, 0)
     Layers.copy2other_layer(JobName, step[0], 'drill.pin', 'drill.out', False, 0, 0, 0, 0, 0, 0, 0)
     # 删除原来多余图层
     Matrix.delete_layer(JobName, 'drill.pin')
@@ -357,7 +358,7 @@ def YuZuanKong(jobname, step, count, small_to_large, small_to_small):
         # Selection.reset_select_filter()
         # Selection.reverse_select(jobname, step[0], 'drill.out')
 
-        r_size = f"r{round(r_6 / 1000 / 25.4, 2)}"
+        # r_size = f"r{round(r_6 / 1000 / 25.4, 2)}"
         # 添加第一层 Pad
         # Layers.add_pad(jobname, step[0], ['drill.out'], r_size, x_6, y_6, True, 0, [], 0)
         jiaodu = 360 / count
