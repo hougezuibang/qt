@@ -66,8 +66,8 @@ class Loginwindow(QMainWindow):
     def logintohome(self):
         lineEdit = self.ui.lineEdit.text()
         lineEdit_2 = self.ui.lineEdit_2.text()
-    # TOOD  待维护
-    # TOOD (待维护)
+# TOOD  待维护
+# TOOD (待维护)
         user_found = next((i for i in self.user_data if lineEdit == i[0] and lineEdit_2 == i[1]), None)
         if user_found:
             print('登录成功')
