@@ -46,5 +46,5 @@ class Ui_my(object):
         my.setWindowTitle(_translate("my", "MainWindow"))
         self.label.setText(_translate("my", "账号"))
         self.label_2.setText(_translate("my", "密码"))
-        self.pushButton.setText(_translate("my", "PushButton"))
+        self.pushButton.setText(_translate("my", "修改信息"))
 

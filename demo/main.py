@@ -101,9 +101,12 @@ class homewindow(QMainWindow):
         self.ui.exit.clicked.connect(self.close)
         self.show()
     def tomy(self):
-        self.hide()
-        self.my_window = MyWindows(self.db)
-        self.my_window.show()
+        self.hide()  # 隐藏当前窗口
+        try:
+            self.my_window = MyWindows(self.db)  # 实例化 MyWindows
+            self.my_window.show()  # 显示 MyWindows
+        except Exception as e:
+            print(f"打开 MyWindows 时发生错误: {e}")  # 打印错误信息
     def close(self):
         self.hide()
         # self.login_window = Loginwindow(self.db)
@@ -122,7 +125,10 @@ class MyWindows(QMainWindow):
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)  # 无边框窗口
         self.show()  # 显示窗口
         # self.ui.lineEdit.text().values()=self.db.fetch_all_users()
-        print(self.db.fetch_all_users())
+        value = self.db.fetch_all_users()
+        # self.ui.lineEdit.setText(value)  # 使用 setText() 方法设置文本
+        print("self.db.fetch_all_users()")
+        print(value)
         self.ui.lineEdit_2.text()
 
 
@@ -130,6 +136,6 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     db = Database()
     win = Loginwindow(db)  # 实例化登录窗口
-    db.close()
     sys.exit(app.exec_())
+    db.close()
 

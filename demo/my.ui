@@ -50,7 +50,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>修改信息</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
