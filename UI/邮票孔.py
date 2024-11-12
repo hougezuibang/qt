@@ -40,7 +40,7 @@ class Ui_Form(QtWidgets.QWidget):
         self.lineEdit_2 = QtWidgets.QLineEdit(Form)
         self.lineEdit_2.setGeometry(QtCore.QRect(130, 120, 113, 21))
         self.lineEdit_2.setObjectName("lineEdit_2")
-        self.label_2 = QtWidgets.QLabel(Form)
+        self.label_2 = QtWidgets.QLabel(Form) 
         self.label_2.setGeometry(QtCore.QRect(40, 120, 72, 15))
         self.label_2.setObjectName("label_2")
         self.radioButton_3 = QtWidgets.QRadioButton(Form)
