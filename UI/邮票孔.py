@@ -153,7 +153,7 @@ class Ui_Form(QtWidgets.QWidget):
     def minimumdistance(self,pads):
         # 判断两两之间的最小距离并形成配对
         pairs = []
-        min_distance = 5600000  # 假设最小距离，需要根据实际情况设置
+        min_distance = 6000000  # 假设最小距离，需要根据实际情况设置
 
         for i in range(len(pads)):
             for j in range(i + 1, len(pads)):
@@ -161,10 +161,10 @@ class Ui_Form(QtWidgets.QWidget):
                 r1, x1, y1 = pads[i]
                 r2, x2, y2 = pads[j]
                 distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
-                
                 # 如果距离小于 min_distance，则形成配对
                 if distance < min_distance:
                     pairs.append((x1, y1,x2,y2))  # 存储配对信息
+                    print(distance) 
 
         # 打印配对结果
         print("Pairs of pads within minimum distance:")
@@ -184,3 +184,17 @@ if __name__ == "__main__":
 
     w.show()  # 展示窗口
     app.exec()
+
+
+
+
+# Layers.fill_profile(job, step, layers, fill_type=0, step_repeat_nesting=True, nesting_child_steps=[], step_margin_x=0, step_margin_y=0, max_distance_x=0, max_distance_y=0, SR_step_margin_x=0, SR_step_margin_y=0, SR_max_distance_x=0, SR_max_distance_y=0, avoid_drill=0, avoid_rout=0, avoid_feature=0, polarity=True)
+# 在指定层依外形轮廓(Profile)填充为实体，填充前需设置相关填充参数（set_fill_grid_param、set_fill_pattern_param、set_fill_solid_param相关参数），若不设置默认用实铜填充
+
+
+# Layers.profile_to_outline(job, step, layers, linewidth)
+# 指定料号根据profile线创建外框线
+
+
+# Information.get_profile(job, step)
+# 获取指定料号工作单元(step)中构成profile线上所有点的坐标
