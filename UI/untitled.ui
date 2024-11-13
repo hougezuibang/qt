@@ -48,6 +48,9 @@
      <height>22</height>
     </rect>
    </property>
+   <property name="value">
+    <double>1.000000000000000</double>
+   </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -70,6 +73,12 @@
      <width>70</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="maximum">
+    <double>99990000.000000000000000</double>
+   </property>
+   <property name="value">
+    <double>650.000000000000000</double>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_2">
