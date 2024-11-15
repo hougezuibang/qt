@@ -33,7 +33,7 @@ class Ui_Form(QtWidgets.QWidget):
         self.pushButton_3.setGeometry(QtCore.QRect(450, 340, 93, 28))
         self.pushButton_3.setObjectName("pushButton_3")
         self.doubleSpinBox_2 = QtWidgets.QDoubleSpinBox(Form)
-        self.doubleSpinBox_2.setProperty("value", 39.37)
+        self.doubleSpinBox_2.setProperty("value", 1.0)
         self.doubleSpinBox_2.setGeometry(QtCore.QRect(270, 120, 70, 22))
         self.doubleSpinBox_2.setObjectName("doubleSpinBox_2")
         self.label = QtWidgets.QLabel(Form)
@@ -42,20 +42,20 @@ class Ui_Form(QtWidgets.QWidget):
         self.doubleSpinBox = QtWidgets.QDoubleSpinBox(Form)
         self.doubleSpinBox.setGeometry(QtCore.QRect(270, 60, 70, 22))
         self.doubleSpinBox.setMaximum(99990000.0)
-        self.doubleSpinBox.setProperty("value", 1.4)
+        self.doubleSpinBox.setProperty("value", 650.0)
         self.doubleSpinBox.setObjectName("doubleSpinBox")
-        # self.lineEdit_2 = QtWidgets.QLineEdit(Form)
-        # self.lineEdit_2.setGeometry(QtCore.QRect(130, 120, 113, 21))
-        # self.lineEdit_2.setObjectName("lineEdit_2")
+        self.lineEdit_2 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_2.setGeometry(QtCore.QRect(130, 120, 113, 21))
+        self.lineEdit_2.setObjectName("lineEdit_2")
         self.label_2 = QtWidgets.QLabel(Form) 
         self.label_2.setGeometry(QtCore.QRect(40, 120, 72, 15))
         self.label_2.setObjectName("label_2")
         self.radioButton_3 = QtWidgets.QRadioButton(Form)
         self.radioButton_3.setGeometry(QtCore.QRect(580, 130, 115, 19))
         self.radioButton_3.setObjectName("radioButton_3")
-        # self.lineEdit = QtWidgets.QLineEdit(Form)
-        # self.lineEdit.setGeometry(QtCore.QRect(130, 60, 113, 21))
-        # self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit = QtWidgets.QLineEdit(Form)
+        self.lineEdit.setGeometry(QtCore.QRect(130, 60, 113, 21))
+        self.lineEdit.setObjectName("lineEdit")
         self.label_3 = QtWidgets.QLabel(Form)
         self.label_3.setGeometry(QtCore.QRect(470, 90, 72, 15))
         self.label_3.setObjectName("label_3")
@@ -65,15 +65,17 @@ class Ui_Form(QtWidgets.QWidget):
         self.radioButton_2 = QtWidgets.QRadioButton(Form)
         self.radioButton_2.setGeometry(QtCore.QRect(580, 80, 115, 19))
         self.radioButton_2.setObjectName("radioButton_2")
+
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
+
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
         self.pushButton_2.setText(_translate("Form", "移动"))
         self.pushButton.setText(_translate("Form", "打开"))
-        self.label.setText(_translate("Form", "间距"))
-        self.label_2.setText(_translate("Form", "孔大小"))
+        self.label.setText(_translate("Form", "孔大小"))
+        self.label_2.setText(_translate("Form", "间距"))
         self.radioButton_3.setText(_translate("Form", "外切"))
         self.label_3.setText(_translate("Form", "圆心位置"))
         self.radioButton.setText(_translate("Form", "内切"))
@@ -152,78 +154,40 @@ class Ui_Form(QtWidgets.QWidget):
     # 判断两两之间的最小距离并形成配对
         pairs = []
         min_distance = 6000000  # 假设最小距离，需要根据实际情况设置
+
         for i in range(len(pads)):
             for j in range(i + 1, len(pads)):
                 # 计算两个 pad 之间的距离
                 r1, x1, y1 = pads[i]
                 r2, x2, y2 = pads[j]
                 distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+                
                 # 输出调试信息
                 print(f"Comparing pad {i} and pad {j}, Distance: {distance}")
+
                 # 如果距离小于 min_distance，则形成配对
                 if distance < min_distance:
                     pairs.append((x1, y1, x2, y2, distance))  # 存储配对信息
                     print(f"Pair found: ({x1}, {y1}) and ({x2}, {y2}), Distance: {distance}")
-                    # 设置可控大小和间距
-                    # controlled_size = 0.03937  # 可控大小
-                    controlled_size = self.doubleSpinBox_2.value()  # 可控大小
-                    # 0.02r20
-                    # spacing = 1400000  # 圆与圆之间的间距
-                    spacing = self.doubleSpinBox.value() * 1000000 # 圆与圆之间的间距
-                    # 1毫米 1000000
-                    r_string = f"r{controlled_size }"  # 设置的可控大小
-                    radius_string = pads[j][0]  # 例如，'r39'
-                    radius_value = int(radius_string[1:]) 
-                    print("qqqwww")
-                    print(r_string)
-                    # 计算圆的直径
-                    # - 3900000 
-                    print(controlled_size)
-                    xiaoyuanzhijing = controlled_size * 25.400 *1000  # 将可控大小转换为适当的单位，假设单位是毫米
-                    dayuanzhijing = radius_value * 25.400 *1000
-                    print(spacing)
-                    print(distance)
-                    print(dayuanzhijing)
-                    adjusted_distance = distance - dayuanzhijing  
-                    # 计算需要添加的圆的数量，确保至少为1
-                    num_circles = max(1, int(adjusted_distance / (controlled_size + spacing)))  # 根据控制大小和间距计算圆的数量
-                    print(f"需要添加的圆的数量: {num_circles}, 当前距离: {distance}")  # 调试信息
-                    # 如果是双数，则将数量减1
-                    # if num_circles % 2 == 0:
-                    #     num_circles -= 1
-                    #     print(f"调整后的圆的数量（双数变单数）: {num_circles}")
-                    # 计算剩余的距离
-                    total_length = num_circles * controlled_size + (num_circles - 1) * spacing
-                    # remaining_distance = adjusted_distance - (num_circles * controlled_size + (num_circles - 1) * spacing)
-                    remaining_distance = adjusted_distance - total_length
-                    # 如果有剩余的距离，均匀分配到两侧
-                    if remaining_distance > 0 and num_circles > 0:
-                        extra_spacing = remaining_distance / (num_circles + 1)  # 加1用于左右两侧的额外间距
-                    else:
-                        extra_spacing = 0  # 如果没有剩余距离，则额外间距为0
 
-                    # 记录已添加圆的坐标
-                    added_coords = set()
-                    # 左侧起始位置计算
-                    start_x = (x1 + x2) / 2 - (total_length / 2) - extra_spacing
-                    # 遍历需要添加的圆
+                    # 设置可控大小的字符串
+                    r_string = f"r{int(0.03 * 1000)}"  # 根据需要设置的可控大小
+
+                    # 计算需要添加的圆的数量，确保至少为1
+                    # 根据距离和大小计算要添加的圆的个数，确保至少添加一个圆
+                    num_circles = 3 # 使用整数除法并转换为整数
+
+                    # # 遍历需要添加的圆
                     for k in range(num_circles):
-                        # 计算每个圆的坐标，加入spacing以控制间距
-                        # xc = (x1 + x2) / 2- (remaining_distance / 2) + (k - num_circles // 2) * (controlled_size + spacing) + extra_spacing # 通过索引位置调整圆的位置
-                        # xc = (x1 + x2) / 2 - (total_length / 2) + k * (controlled_size + spacing) + extra_spacing
-                        xc = start_x + k * (controlled_size + spacing)+ extra_spacing  # 向右移动
+                        # 计算每个圆的坐标
+                        xc = (x1 + x2) / 2 + (k - num_circles // 2) * (distance / num_circles)
                         yc = (y1 + y2) / 2
-                        
-                        if (xc, yc) in added_coords:
-                            print(f"圆的坐标 ({xc}, {yc}) 已经存在，跳过添加。")
-                            continue
-                        print("添加圆的坐标:", xc, yc)  # 打印坐标以便调试
-                        try:
-                            # 添加圆
-                            Layers.add_pad(JobName, step[0], ['gko'], r_string, xc, yc, True, 8, [], 0)
-                            added_coords.add((xc, yc))  # 记录已添加圆的坐标
-                        except Exception as e:
-                            print(f"添加圆 ({xc}, {yc}) 失败，错误信息: {e}")
+                        print("aaaaaaa")
+                        print(xc, yc)
+                        # 添加圆
+                        Layers.add_pad(JobName, step[0], ['gko'], r_string, xc, yc, True, 8, [], 0)
+
+
         # 打印配对结果
         print("Pairs of pads within minimum distance:")
         print(len(pairs))
