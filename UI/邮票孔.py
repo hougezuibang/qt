@@ -150,8 +150,8 @@ class Ui_Form(QtWidgets.QWidget):
         Configuration.init(r'C:\Users\MLB\Downloads\EPCAM_1.2.8.4_release_jiami_3\Release')
         # 打开指定的工作任务
         Input.open_job(JobName, r'C:\Users\MLB\Downloads\EPCAM_1.2.8.4_release_jiami_3\Release\job')
-    def minimumdistance(self,pads):
-        # 判断两两之间的最小距离并形成配对
+    def minimumdistance(self, pads):
+    # 判断两两之间的最小距离并形成配对
         pairs = []
         min_distance = 6000000  # 假设最小距离，需要根据实际情况设置
 
@@ -161,16 +161,74 @@ class Ui_Form(QtWidgets.QWidget):
                 r1, x1, y1 = pads[i]
                 r2, x2, y2 = pads[j]
                 distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+
+                # 输出调试信息
+                print(f"Comparing pad {i} and pad {j}, Distance: {distance}")
+
                 # 如果距离小于 min_distance，则形成配对
                 if distance < min_distance:
-                    pairs.append((x1, y1,x2,y2))  # 存储配对信息
-                    print(distance) 
+                    pairs.append((x1, y1, x2, y2, distance))  # 存储配对信息
+                    print(f"Pair found: ({x1}, {y1}) and ({x2}, {y2}), Distance: {distance}")
+
+                    # 设置可控大小和间距
+                    controlled_size = 0.02  # 可控大小
+                    # 0.02r20
+                    spacing = 1200000  # 圆与圆之间的间距
+                    # 1毫米 1000000
+                    r_string = f"r{int(controlled_size * 1000)}"  # 设置的可控大小
+                    print("pads[j][0]")
+                    print(pads[j][0])
+                    print(r_string)
+                    # 计算圆的直径
+                    # - 3900000 
+                    diameter = controlled_size * 1000*50000  # 将可控大小转换为适当的单位，假设单位是毫米
+                    adjusted_distance = distance   # 减去圆的直径以计算有效的间隔
+
+                    # 计算需要添加的圆的数量，确保至少为1
+                    num_circles = max(1, int(adjusted_distance / (controlled_size + spacing)))  # 根据控制大小和间距计算圆的数量
+                    print(f"需要添加的圆的数量: {num_circles}, 当前距离: {distance}")  # 调试信息
+
+                    # 记录已添加圆的坐标
+                    added_coords = set()
+
+                    # 遍历需要添加的圆
+                    for k in range(num_circles):
+                        # 计算每个圆的坐标，加入spacing以控制间距
+                        xc = (x1 + x2) / 2 + (k - num_circles // 2) * (controlled_size + spacing)  # 通过索引位置调整圆的位置
+                        yc = (y1 + y2) / 2
+                        
+                        if (xc, yc) in added_coords:
+                            print(f"圆的坐标 ({xc}, {yc}) 已经存在，跳过添加。")
+                            continue
+
+                        print("添加圆的坐标:", xc, yc)  # 打印坐标以便调试
+
+                        try:
+                            # 添加圆
+                            Layers.add_pad(JobName, step[0], ['gko'], r_string, xc, yc, True, 8, [], 0)
+                            added_coords.add((xc, yc))  # 记录已添加圆的坐标
+                        except Exception as e:
+                            print(f"添加圆 ({xc}, {yc}) 失败，错误信息: {e}")
+
+
+
+
+
+
 
         # 打印配对结果
         print("Pairs of pads within minimum distance:")
         print(len(pairs))
         print(pairs)
-
+        # xc = item["XC"] * 25400 * 1000  # 将 XC 转换成适当的单位
+        # yc = item["YC"] * 25400 * 1000  # 将 YC 转换成适当的单位
+            
+        #     # 生成 r_string
+        # r_string = "r" + str(int(d_value * 1000))  # 或者根据 d_value 的比例生成 r_string
+            
+        # Layers.add_pad(JobName, step[0], ['gko'], r_string, xc, yc, True, 
+        #                 8, [], 0) 
+        
 # 初始化配置，指定配置文件路径
 JobName = '2s'
 step = ['set']
