@@ -80,7 +80,7 @@ class Ui_Form(QtWidgets.QWidget):
         self.radioButton_2.setText(_translate("Form", "正中"))
         self.pushButton_3.setText(_translate("Form", "提交"))
         self.pushButton_2.clicked.connect(self.move_copy)
-        self.pushButton.clicked.connect(self.open)
+        self.pushButton.clicked.connect(self.open) 
         self.pushButton_3.clicked.connect(self.submit)
 
     def open(self):
