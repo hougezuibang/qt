@@ -18,6 +18,9 @@ class Ui_Form(QtWidgets.QWidget):
         Form.setObjectName("Form")
         Form.resize(741, 504)
         Form.move(1200, 500)
+        # Form.move(1200, 500)
+        # Form.move(1200, 500)
+        # Form.move(1200, 500)
         JobName = '2s'
         step = ['set']
         # 设置自定义特征
