@@ -1,6 +1,7 @@
-from login_ui import Ui_login  # 替换为你的 UI 类名
-from home_ui import Ui_home  # 替换为你的主窗口类名
-from my_ui import Ui_my  # 替换为你的设置类名
+from login_ui import Ui_login  # 导入登录界面相关的 UI 类
+from home_ui import Ui_home  # 导入主窗口界面相关的 UI 类
+from my_ui import Ui_my  # 导入设置界面相关的 UI 类
+
 import pymysql
 import sys
 import webbrowser
@@ -64,6 +65,7 @@ class Loginwindow(QMainWindow):
             print('用户名和密码不能为空，或密码不一致')
 
     def logintohome(self):
+        self.user_data = self.db.fetch_all_users()  # 缓存用户数据
         lineEdit = self.ui.lineEdit.text()
         lineEdit_2 = self.ui.lineEdit_2.text()
 # TOOD  待维护

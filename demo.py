@@ -1,8 +1,9 @@
 # from http.cookiejar import debug
 from epkernel import BASE
-from epkernel.MI import stackup
+# from epkernel.MI import stackup
 from epkernel.Action import Information,Selection
-from epkernel import Configuration, Input, GUI,Application,Guide
+# from epkernel import Application
+from epkernel import Configuration, Input, GUI,Guide
 from epkernel.Edition import Matrix,Layers
 import math
 # 初始化配置，指定配置文件路径
@@ -238,7 +239,7 @@ def type_filter():
     Layers.contour2pad(JobName, step[0], ["l3"], 1*25400, 5*25400, 99999*25400,  "+++++")
 # type_filter()
 
-# GUI.show_layer(jobname, step[0], 'l3')
+# GUI.show_layer(JobName, step[0], 'l3')
 
 
 # region
@@ -331,6 +332,7 @@ def linetopad():
 def caokong(jobname, step):
     try:
         Selection.select_feature_by_id(jobname, step[0], 'drill.out', [3155])
+        print("----------选中物件3155----------")
         GUI.show_layer(jobname, step[0], 'drill.out')
         selectFeatureInfo = Information.get_selected_features_infos(jobname, step[0], 'drill.out')
         
@@ -419,7 +421,7 @@ def kong_15(jobname, step):
         print(f"发生错误: {e}")
 
 
-# kong_15(jobname, step)
+kong_15(JobName, step)
 
 def kong_20(jobname, step):
     try:
@@ -439,10 +441,11 @@ def kong_20(jobname, step):
     except Exception as e:
         print(f"发生错误: {e}")
 
-# kong_20(jobname, step)
+kong_20(JobName, step)
 
 
 # Layers.add_pad(jobname,step[0],['drill.out'],"r15",x_6+200000,y_6,True,0,[],0)
+print('--------------按道理------------添加导引孔-')
 GUI.show_layer(JobName, step[0], 'drill.out')
 
 

@@ -1,4 +1,4 @@
-from http.cookiejar import debug
+# from http.cookiejar import debug
 
 from epkernel.Action import Information,Selection
 from epkernel import Configuration, Input, GUI, Output,Application,Guide

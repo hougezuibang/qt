@@ -24,7 +24,7 @@ def rename_layers():
         ('etchlayer3.gdo', 'board', 'signal', 'l3'),
         ('etchlayer4.gdo', 'board', 'signal', 'l4'),
         ('etchlayer5.gdo', 'board', 'signal', 'l5'),
-        ('etchlayer6bottom.gdo', 'board', 'signal', 'gbl'),
+        ('etchlayer6bottom.gdo', 'board', 'signal', 'gbl'), 
         ('generatedsilkscreenbottom.gdo', 'board', 'silk_screen', 'gbo'),
         ('generatedsilkscreentop.gdo', 'board', 'silk_screen', 'gto'),
         ('solderpastebottom.gdo', 'misc', 'signal', 'gbp'),

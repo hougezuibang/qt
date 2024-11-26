@@ -37,7 +37,7 @@ class Ui_Form(QtWidgets.QWidget):
         min_hole_size, max_hole_size = find_hole_sizes(JobName, step)
         print(f"最小孔大小: {min_hole_size} mm")
         print(f"最大孔大小: {max_hole_size} mm")
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget = QtWidgets.QWidget(Ui_Form)
         self.centralwidget.setObjectName("centralwidget")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(70, 380, 93, 28))
@@ -75,8 +75,8 @@ class Ui_Form(QtWidgets.QWidget):
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_2.setGeometry(QtCore.QRect(280, 380, 93, 28))
         self.pushButton_2.setObjectName("pushButton_2")
-        self.retranslateUi(MainWindow)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        self.retranslateUi(Ui_Form)
+        QtCore.QMetaObject.connectSlotsByName(Ui_Form)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -124,7 +124,10 @@ class Ui_Form(QtWidgets.QWidget):
 
 # 初始化配置，指定配置文件路径
 JobName = '6328037'
-step = ['orig']
+step = ['orig']    
+
+
+
 
 
 
