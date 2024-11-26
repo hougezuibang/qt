@@ -6,79 +6,78 @@
 #
 # WARNING! All changes made in this file will be lost!
 import sys
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 # from http.cookiejar import debug
-from epkernel import BASE
 from epkernel.Action import Information, Selection
-from epkernel import Configuration, Input, GUI, Application, Guide
-from epkernel.Edition import Matrix, Layers
+from epkernel import Configuration, Input, GUI, Application
+from epkernel.Edition import Layers
 import math
-class Ui_Form(QtWidgets.QWidget):
-    def setupUi(self, Form):
-        Form.setObjectName("Form")
-        Form.resize(741, 504)
-        Form.move(1200, 500)
+class UiForm(QtWidgets.QWidget):
+    def setupUi(self, form):
+        form.setObjectName("form")
+        form.resize(741, 504)
+        form.move(1200, 500)
         JobName = '2s'
         step = ['set']
         # 设置自定义特征
         Information.get_origin_point(JobName, step[0])
         self.initData()
-        self.pushButton_2 = QtWidgets.QPushButton(Form)
+        self.pushButton_2 = QtWidgets.QPushButton(form)
         self.pushButton_2.setGeometry(QtCore.QRect(240, 340, 93, 28))
         self.pushButton_2.setObjectName("pushButton_2")
-        self.pushButton = QtWidgets.QPushButton(Form)
+        self.pushButton = QtWidgets.QPushButton(form)
         self.pushButton.setGeometry(QtCore.QRect(30, 340, 93, 28))
         self.pushButton.setObjectName("pushButton")
-        self.pushButton_3 = QtWidgets.QPushButton(Form)
+        self.pushButton_3 = QtWidgets.QPushButton(form)
         self.pushButton_3.setGeometry(QtCore.QRect(450, 340, 93, 28))
         self.pushButton_3.setObjectName("pushButton_3")
-        self.doubleSpinBox_2 = QtWidgets.QDoubleSpinBox(Form)
+        self.doubleSpinBox_2 = QtWidgets.QDoubleSpinBox(form)
         self.doubleSpinBox_2.setProperty("value", 39.37)
         self.doubleSpinBox_2.setGeometry(QtCore.QRect(270, 120, 70, 22))
         self.doubleSpinBox_2.setObjectName("doubleSpinBox_2")
-        self.label = QtWidgets.QLabel(Form)
+        self.label = QtWidgets.QLabel(form)
         self.label.setGeometry(QtCore.QRect(40, 60, 72, 15))
         self.label.setObjectName("label")
-        self.doubleSpinBox = QtWidgets.QDoubleSpinBox(Form)
+        self.doubleSpinBox = QtWidgets.QDoubleSpinBox(form)
         self.doubleSpinBox.setGeometry(QtCore.QRect(270, 60, 70, 22))
         self.doubleSpinBox.setMaximum(99990000.0)
         self.doubleSpinBox.setProperty("value", 1.4)
         self.doubleSpinBox.setObjectName("doubleSpinBox")
-        # self.lineEdit_2 = QtWidgets.QLineEdit(Form)
+        # self.lineEdit_2 = QtWidgets.QLineEdit(form)
         # self.lineEdit_2.setGeometry(QtCore.QRect(130, 120, 113, 21))
         # self.lineEdit_2.setObjectName("lineEdit_2")
-        self.label_2 = QtWidgets.QLabel(Form) 
+        self.label_2 = QtWidgets.QLabel(form)
         self.label_2.setGeometry(QtCore.QRect(40, 120, 72, 15))
         self.label_2.setObjectName("label_2")
-        self.radioButton_3 = QtWidgets.QRadioButton(Form)
+        self.radioButton_3 = QtWidgets.QRadioButton(form)
         self.radioButton_3.setGeometry(QtCore.QRect(580, 130, 115, 19))
         self.radioButton_3.setObjectName("radioButton_3")
-        # self.lineEdit = QtWidgets.QLineEdit(Form)
+        # self.lineEdit = QtWidgets.QLineEdit(form)
         # self.lineEdit.setGeometry(QtCore.QRect(130, 60, 113, 21))
         # self.lineEdit.setObjectName("lineEdit")
-        self.label_3 = QtWidgets.QLabel(Form)
+        self.label_3 = QtWidgets.QLabel(form)
         self.label_3.setGeometry(QtCore.QRect(470, 90, 72, 15))
         self.label_3.setObjectName("label_3")
-        self.radioButton = QtWidgets.QRadioButton(Form)
+        self.radioButton = QtWidgets.QRadioButton(form)
         self.radioButton.setGeometry(QtCore.QRect(580, 40, 115, 19))
         self.radioButton.setObjectName("radioButton")
-        self.radioButton_2 = QtWidgets.QRadioButton(Form)
+        self.radioButton_2 = QtWidgets.QRadioButton(form)
         self.radioButton_2.setGeometry(QtCore.QRect(580, 80, 115, 19))
         self.radioButton_2.setObjectName("radioButton_2")
-        self.retranslateUi(Form)
-        QtCore.QMetaObject.connectSlotsByName(Form)
-    def retranslateUi(self, Form):
+        self.retranslateUi(form)
+        QtCore.QMetaObject.connectSlotsByName(form)
+    def retranslateUi(self, form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
-        self.pushButton_2.setText(_translate("Form", "移动"))
-        self.pushButton.setText(_translate("Form", "打开"))
-        self.label.setText(_translate("Form", "间距"))
-        self.label_2.setText(_translate("Form", "孔大小"))
-        self.radioButton_3.setText(_translate("Form", "外切"))
-        self.label_3.setText(_translate("Form", "圆心位置"))
-        self.radioButton.setText(_translate("Form", "内切"))
-        self.radioButton_2.setText(_translate("Form", "正中"))
-        self.pushButton_3.setText(_translate("Form", "提交"))
+        form.setWindowTitle(_translate("form", "form"))
+        self.pushButton_2.setText(_translate("form", "移动"))
+        self.pushButton.setText(_translate("form", "打开"))
+        self.label.setText(_translate("form", "间距"))
+        self.label_2.setText(_translate("form", "孔大小"))
+        self.radioButton_3.setText(_translate("form", "外切"))
+        self.label_3.setText(_translate("form", "圆心位置"))
+        self.radioButton.setText(_translate("form", "内切"))
+        self.radioButton_2.setText(_translate("form", "正中"))
+        self.pushButton_3.setText(_translate("form", "提交"))
         self.pushButton_2.clicked.connect(self.move_copy)
         self.pushButton.clicked.connect(self.open) 
         self.pushButton_3.clicked.connect(self.submit)
@@ -97,7 +96,8 @@ class Ui_Form(QtWidgets.QWidget):
         GUI.show_layer(JobName, step[0], 'drl')
         print("打开jishu")
     def move_copy(self):
-        Layers.copy2other_layer(JobName,step[0], 'drl', 'gbo',True, 0, 0, 0, 0, 0, 0, 0)
+        Layers.copy2other_layer(JobName,step[0], 'drl', 'gbo',True,
+                                0, 0, 0, 0, 0, 0, 0)
         Layers.copy2other_layer(JobName,step[0], 'drl', 'gto',True, 0, 0, 0, 0, 0, 0, 0)
         Layers.copy2other_layer(JobName,step[0], 'drl', 'gbl',True, 0, 0, 0, 0, 0, 0, 0)
         Layers.copy2other_layer(JobName,step[0], 'drl', 'gtl',True, 0, 0, 0, 0, 0, 0, 0)
@@ -242,7 +242,7 @@ JobName = '2s'
 step = ['set']
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
-    w = Ui_Form()
+    w = UiForm()
     w.setupUi(w)  # 调用setupUi方法
 
     # 设置窗口为无边框
