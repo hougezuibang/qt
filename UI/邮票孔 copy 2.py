@@ -209,13 +209,6 @@ class Ui_Form(QtWidgets.QWidget):
                             added_coords.add((xc, yc))  # 记录已添加圆的坐标
                         except Exception as e:
                             print(f"添加圆 ({xc}, {yc}) 失败，错误信息: {e}")
-
-
-
-
-
-
-
         # 打印配对结果
         print("Pairs of pads within minimum distance:")
         print(len(pairs))
